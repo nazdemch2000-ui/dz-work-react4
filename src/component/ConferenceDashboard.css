@@ -1,0 +1,19 @@
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f5f6fa;
+}
+
+.dashboard-sidebar {
+  width: 450px;
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: white;
+  border-right: 1px solid #ddd;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 30px;
+  min-width: 0;
+}
